@@ -1,3 +1,14 @@
+.navbar {
+  background-color: #48649F;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #FFFFFF;
+  font-size: 13pt;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFCA00;
+}
 .cd-offre {
   position: relative;
   height: 100vh;
@@ -31,7 +42,7 @@
   width: 100%;
   /* vertically align its content */
   display: table;
-  background: #2e416a;
+  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
   overflow: hidden;
 }
 .cd-intro-content {
@@ -40,7 +51,7 @@
   vertical-align: middle;
   text-align: center;
   padding: 0 5%;
-  background: #2e416a;
+  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
