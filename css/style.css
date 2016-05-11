@@ -9,6 +9,30 @@
 .navbar-default .navbar-nav > li > a:focus {
   color: #FFCA00;
 }
+.cd-intro {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* vertically align its content */
+  display: table;
+  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
+  overflow: hidden;
+}
+.cd-intro-content {
+  /* vertically align inside its parent */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 100px 5%;
+}
+.punchline-offre{
+  font-size: 25pt;
+  color: #FFFFFF;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .cd-offre {
   position: relative;
   height: 100vh;
@@ -25,33 +49,6 @@
   text-align: center;
   padding: 0 5%;
   background: #48649F;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.punchline-offre{
-  font-size: 25pt;
-  color: #FFFFFF;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.cd-intro {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  /* vertically align its content */
-  display: table;
-  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
-  overflow: hidden;
-}
-.cd-intro-content {
-  /* vertically align inside its parent */
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  padding: 0 5%;
-  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
