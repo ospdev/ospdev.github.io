@@ -92,6 +92,38 @@ img.speaker {
   font-size: 18pt;
   border-radius: 3px;
 }
+.cd-equipe{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* vertically align its content */
+  display: table;
+  background: #48649F;
+  overflow: hidden;
+}
+.cd-equipe-content{
+  /* vertically align inside its parent */
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 5%;
+  background: #48649F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.thumbnail {
+  max-width: 70%;
+  background-color: #FFFFFF;
+  border-color: #FFCA00;
+  border-width: thin;
+  text-align: center;
+}
+.fa {
+  padding-left: 8px;
+  color: #000000;
+}
+.fa:hover {
+  color: #FFCA00;
+}
 .punchline {
   color: #FFFFFF;
   font-size: 36pt;
