@@ -134,12 +134,14 @@ img.speaker {
     margin-right: 50px;
     font-size: 12pt;
   }
+}
 @media screen and (min-width: 940px){
   .realisations {
     margin-left: 170px;
     margin-right: 170px;
     font-size: 14pt;
   }
+}
 .realisations {
   text-align:center;
 }
