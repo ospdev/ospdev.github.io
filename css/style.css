@@ -1,3 +1,9 @@
+
+ul.nav li {
+  float: right;
+  display: inline;
+  padding-right: 0px;
+}
 .navbar {
   background-color: #48649F;
 }
@@ -11,11 +17,10 @@
 }
 .cd-intro {
   position: relative;
-  height: 100vh;
-  width: 100%;
+  width: 100vw;
   /* vertically align its content */
   display: table;
-  background: url("https://github.com/ospdev/ospdev.github.io/blob/master/img/Moon.png?raw=true");
+  background: #EFF5FC;
   overflow: hidden;
 }
 .cd-intro-content {
@@ -25,9 +30,19 @@
   text-align: center;
   padding: 100px 5%;
 }
+.punchline {
+  color: #000000;
+  font-size: 20pt;
+}
+.sous-punchline{
+  color: #000000;
+  font-size: 16pt;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
 .punchline-offre{
-  font-size: 25pt;
-  color: #FFFFFF;
+  font-size: 12pt;
+  color: #53516A;
   margin-left: 200px;
   margin-right: 200px;
   padding-bottom: 30px;
@@ -119,21 +134,16 @@ img.speaker {
   color: #000000;
 }
 .fa:hover {
-  color: #FFCA00;
+  color: #61B4F3;
 }
-.punchline {
-  color: #FFFFFF;
-  font-size: 36pt;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
+
 .btn-bleu{
   color: #ffffff;
-  background-color: #48649F;
+  background-color: #65B5F0;
   border-color: transparent;
   border-style: solid;
   border-width: 2px;
-  font-size: 17pt;
+  font-size: 12pt;
 }
 .btn-or{
   color: #FFCA00;
@@ -141,11 +151,11 @@ img.speaker {
   border-color: #FFCA00;
   border-style: solid;
   border-width: 2px;
-  font-size: 17pt;
+  font-size: 12pt;
   margin-left: 20px;
 }
 .btn-bleu:hover{
-  color: #FFCA00;
+  color: #89C7FA;
 }
 .btn-or:hover{
   color: #FFFFFF;
