@@ -131,18 +131,21 @@ img.speaker {
 .cd-equipe{
   position: relative;
   /*height: 100vh;*/
-  width: 100%;
+  width: 100vw;
   /* vertically align its content */
   display: table;
-  background: #48649F;
+  background: #FFFFFF;
   overflow: hidden;
 }
 .cd-equipe-content{
   /* vertically align inside its parent */
   display: table-cell;
   vertical-align: middle;
-  padding: 0 5%;
+  align-items: center;
+  padding: 0 10%;
   background: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
